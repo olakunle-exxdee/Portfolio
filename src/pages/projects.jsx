@@ -8,7 +8,7 @@ import logoOpenShuttle from '@/images/logos/wonder.svg'
 
 const projects = [
   {
-    name: 'laslesvpn',
+    name: 'LaslesVPN',
     description:
       'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
     link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
@@ -22,7 +22,7 @@ const projects = [
     logo: logoOpenShuttle,
   },
   {
-    name: 'laslesvpn',
+    name: 'LaslesVPN',
     description:
       'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
     link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
