@@ -265,7 +265,7 @@ export default function Home({ articles }) {
             I am Saheed Olakunle, a Frontend Engineer and Master’s Student at
             ESIGELEC based in Rouen, France. I utilize web-based technologies
             like HTML, CSS, Javascript, Typescript, and React to solve issues,
-            bridging the gap, between functionality and aesthetics
+            bridging the gap, between functionality and aesthetics.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
