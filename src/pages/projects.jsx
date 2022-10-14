@@ -5,6 +5,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoLaslesvpn from '@/images/logos/laslesvpn.svg'
 import logoOpenShuttle from '@/images/logos/wonder.svg'
+import logoOpena1 from '@/images/logos/LOGO.svg'
 
 const projects = [
   {
@@ -22,11 +23,11 @@ const projects = [
     logo: logoOpenShuttle,
   },
   {
-    name: 'LaslesVPN',
+    name: 'A1tutor',
     description:
-      'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
-    link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
-    logo: logoLaslesvpn,
+      'QUALITY LEARNING ON THE GO!! Get the highest grades in all your Subjects.',
+    link: { href: 'https://a1-tutor.vercel.app', label: 'A1tutor' },
+    logo: logoOpena1,
   },
 ]
 
@@ -67,7 +68,9 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link target="_blank" href={project.link.href}>
+                  {project.name}
+                </Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
