@@ -46,7 +46,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Saheed Ogunsolu</title>
+        <title>Projects - Olakunle Ogunsolu</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

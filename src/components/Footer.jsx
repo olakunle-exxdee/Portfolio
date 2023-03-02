@@ -25,7 +25,7 @@ export function Footer() {
                 <NavLink href="/projects">Projects</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Saheed Ogunsolu. All rights
+                &copy; {new Date().getFullYear()} Olakunle Ogunsolu. All rights
                 reserved.
               </p>
             </div>
