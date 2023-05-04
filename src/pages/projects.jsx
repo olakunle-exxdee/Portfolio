@@ -6,14 +6,15 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoLaslesvpn from '@/images/logos/laslesvpn.svg'
 import logoOpenShuttle from '@/images/logos/wonder.svg'
 import logoOpena1 from '@/images/logos/LOGO.svg'
+import logoFindtrend from '@/images/logos/findtrend.svg'
 
 const projects = [
   {
-    name: 'LaslesVPN',
+    name: 'Findtrend',
     description:
-      'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
-    link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
-    logo: logoLaslesvpn,
+      'Minimize your tabs. Findtrend let you gathers all of your favorite website into one place. ',
+    link: { href: 'https://findtrend-sepia.vercel.app', label: 'Findtrend' },
+    logo: logoFindtrend,
   },
   {
     name: 'Elevate Worship',
@@ -28,6 +29,13 @@ const projects = [
       'QUALITY LEARNING ON THE GO!! Get the highest grades in all your Subjects.',
     link: { href: 'https://a1-tutor.vercel.app', label: 'A1tutor' },
     logo: logoOpena1,
+  },
+  {
+    name: 'LaslesVPN',
+    description:
+      'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
+    link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
+    logo: logoLaslesvpn,
   },
 ]
 
