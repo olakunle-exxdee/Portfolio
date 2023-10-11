@@ -69,10 +69,10 @@ export default function Home({ articles }) {
             Olakunle OGUNSOLU
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Software engineer based in Paris, France, with expertise in frontend
-            and full-stack development. With 2 years plus of experience in the
-            industry, I honed my skills in various programming languages and
-            frameworks, including JavaScript, React, Angular, Typescript,
+            Software engineer based in Paris, France, with expertise in
+            frontend and full-stack development. With 2 years plus of experience
+            in the industry, I honed my skills in various programming languages
+            and frameworks, including JavaScript, React, Angular, Typescript,
             Python, Django and Node.js. I am passionate about building
             user-friendly and scalable web applications, utilizing the latest
             technologies and best practices.
