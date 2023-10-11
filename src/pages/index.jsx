@@ -3,8 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   TwitterIcon,
@@ -18,7 +16,6 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -72,10 +69,10 @@ export default function Home({ articles }) {
             Olakunle OGUNSOLU
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Software engineer based in Paris, France, with expertise in
-            frontend and full-stack development. With 2 years plus of experience
-            in the industry, I honed my skills in various programming languages
-            and frameworks, including JavaScript, React, Angular, Typescript,
+            Software engineer based in Paris, France, with expertise in frontend
+            and full-stack development. With 2 years plus of experience in the
+            industry, I honed my skills in various programming languages and
+            frameworks, including JavaScript, React, Angular, Typescript,
             Python, Django and Node.js. I am passionate about building
             user-friendly and scalable web applications, utilizing the latest
             technologies and best practices.
@@ -84,17 +81,20 @@ export default function Home({ articles }) {
             <SocialLink
               href="https://twitter.com/olakunle_exxdee"
               aria-label="Follow on Twitter"
+              target="_blank"
               icon={TwitterIcon}
             />
 
             <SocialLink
               href="https://github.com/olakunle-exxdee"
               aria-label="Follow on GitHub"
+              target="_blank"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/ogunsolusaheed/"
+              href="https://www.linkedin.com/in/ogunsoluolakunle/"
               aria-label="Follow on LinkedIn"
+              target="_blank"
               icon={LinkedInIcon}
             />
           </div>
@@ -103,15 +103,8 @@ export default function Home({ articles }) {
       <Photos />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {/* {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))} */}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter />
-            <Resume /> */}
-          </div>
+          <div className="flex flex-col gap-16"></div>
+          <div className="space-y-10 lg:pl-16 xl:pl-24"></div>
         </div>
       </Container>
     </>
@@ -124,10 +117,6 @@ export async function getStaticProps() {
   }
 
   return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
+    props: {},
   }
 }
