@@ -30,7 +30,7 @@ export default function Home() {
             Olakunle Ogunsolu
           </h1>
           <h2 className="text  p-2 tracking-tight text-zinc-800 dark:text-zinc-100">
-            Software Engineer | Project Manager | Prodcut Owner
+            Software Engineer | Project Manager | Product Owner
           </h2>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             with skills in Software engineering , digital transformation,
