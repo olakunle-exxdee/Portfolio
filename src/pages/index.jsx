@@ -15,7 +15,6 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import { generateRssFeed } from '@/lib/generateRssFeed'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -112,10 +111,6 @@ export default function Home({ articles }) {
 }
 
 export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
-
   return {
     props: {},
   }
