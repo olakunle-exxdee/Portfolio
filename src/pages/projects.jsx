@@ -7,6 +7,7 @@ import logoLaslesvpn from '@/images/logos/laslesvpn.svg'
 import logoOpenShuttle from '@/images/logos/wonder.svg'
 import logoOpena1 from '@/images/logos/LOGO.svg'
 import logoFindtrend from '@/images/logos/findtrend.svg'
+import logoCircle from '@/images/logos/circle.png'
 
 const projects = [
   {
@@ -35,6 +36,16 @@ const projects = [
     description:
       'Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.',
     link: { href: 'https://laslesvpn-vpn.netlify.app', label: 'Laslesvpn' },
+    logo: logoLaslesvpn,
+  },
+  {
+    name: 'Circle',
+    description:
+      'A powerful online engagement tool that’s intuitive and simple to use.',
+    link: {
+      href: 'https://vite-project-one-nu.vercel.app',
+      label: 'Circle',
+    },
     logo: logoLaslesvpn,
   },
 ]

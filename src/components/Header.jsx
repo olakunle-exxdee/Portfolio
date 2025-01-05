@@ -5,7 +5,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
+import avatarImage from '@/images/ola.png'
 import { Fragment, useEffect, useRef } from 'react'
 
 function CloseIcon(props) {
@@ -357,11 +357,6 @@ export function Header() {
                     opacity: 'var(--avatar-border-opacity, 0)',
                     transform: 'var(--avatar-border-transform)',
                   }}
-                />
-                <Avatar
-                  large
-                  className="block h-16 w-16 origin-left"
-                  style={{ transform: 'var(--avatar-image-transform)' }}
                 />
               </div>
             </Container>
